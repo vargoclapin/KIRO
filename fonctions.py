@@ -68,7 +68,7 @@ def radius_cost(route):
             if dist>maxi:
                 maxi = dist
 
-    return cout*(0.5*maxi)**2
+    return cout*(0.5*maxi)
 
 def cout_total(sol):
     total = 0 
